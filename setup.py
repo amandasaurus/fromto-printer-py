@@ -7,6 +7,8 @@ setup(
     author_email="rory@technomancy.org",
     py_modules=['fromto'],
     platforms=['any',],
+    test_suite='tests',
+    license='GPLv3+',
     requires=[],
     entry_points={
         'console_scripts': [
